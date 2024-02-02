@@ -1,0 +1,103 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+:root {
+  --primary-color: #336699; /* Replace with your primary color */
+  --secondary-color: #cc9933; /* Replace with your secondary color */
+  --accent-color: #99cc33; /* Replace with your accent color */
+  --additional-accent-color: #ff6600; /* Replace with your additional accent color */
+  --heading-font: 'Your Heading Font', sans-serif; /* Replace with your heading font */
+  --paragraph-font: 'Your Paragraph Font', serif; /* Replace with your paragraph font */
+  --navigation-bg-color: #222222; /* Replace with your navigation background color */
+  --navigation-link-color: #ffffff; /* Replace with your navigation link color */
+  --navigation-hover-link-color: #ffcc00; /* Replace with your navigation hover link color */
+  --navigation-hover-bg-color: #333333; /* Replace with your navigation hover background color */
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: #990000; /* Replace with your chosen color for headings */
+}
+
+header {
+  padding: 20px;
+  background-color: var(--primary-color);
+}
+
+p {
+  padding: 10px; /* Replace with your chosen padding for paragraphs */
+}
+
+nav {
+  background-color: var(--navigation-bg-color);
+}
+
+nav a {
+  color: var(--navigation-link-color);
+  padding: 10px; /* Adjust padding as needed */
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: var(--navigation-hover-link-color);
+  background-color: var(--navigation-hover-bg-color);
+}
+=======
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+:root {
+  --primary-color: #336699; /* Replace with your primary color */
+  --secondary-color: #cc9933; /* Replace with your secondary color */
+  --accent-color: #99cc33; /* Replace with your accent color */
+  --additional-accent-color: #ff6600; /* Replace with your additional accent color */
+  --heading-font: 'Your Heading Font', sans-serif; /* Replace with your heading font */
+  --paragraph-font: 'Your Paragraph Font', serif; /* Replace with your paragraph font */
+  --navigation-bg-color: #222222; /* Replace with your navigation background color */
+  --navigation-link-color: #ffffff; /* Replace with your navigation link color */
+  --navigation-hover-link-color: #ffcc00; /* Replace with your navigation hover link color */
+  --navigation-hover-bg-color: #333333; /* Replace with your navigation hover background color */
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: #990000; /* Replace with your chosen color for headings */
+}
+
+header {
+  padding: 20px;
+  background-color: var(--primary-color);
+}
+
+p {
+  padding: 10px; /* Replace with your chosen padding for paragraphs */
+}
+
+nav {
+  background-color: var(--navigation-bg-color);
+}
+
+nav a {
+  color: var(--navigation-link-color);
+  padding: 10px; /* Adjust padding as needed */
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: var(--navigation-hover-link-color);
+  background-color: var(--navigation-hover-bg-color);
+}
+>>>>>>> ae64aae4d6f9650a803b668ca6b1fd059f110a45
