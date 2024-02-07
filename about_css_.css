@@ -1,0 +1,19 @@
+.nav_a{
+    background-color: white;
+    columns: black;
+    border: 1px solid blue;
+    padding: 4px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+
+}
+
+.nav_a:hover{
+    color: white;
+    background-color: blue;
+}
+
+li{
+    margin-top: 10px;
+}
