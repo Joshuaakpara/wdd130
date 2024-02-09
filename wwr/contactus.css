@@ -1,0 +1,96 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=YourSelectedFont1:wght@400;700&family=YourSelectedFont2:wght@400;700&display=swap');
+
+/* Define CSS variables based on your color scheme */
+:root {
+  --primary-color: #0077cc;
+  --secondary-color: #ff9900;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+}
+
+/* Apply font-family to the entire page */
+body {
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.nav_a:hover {
+  background-color: #0056b3;
+}
+
+/* Main Section Styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Employee Profiles */
+.employee-profiles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.employee {
+  text-align: center;
+}
+
+.employee img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.employee-info p {
+  margin: 5px 0;
+}
+
+/* Comment Form Styles */
+.comment-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.comment-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-form label,
+.comment-form select,
+.comment-form textarea {
+  margin-bottom: 10px;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comment-form input[type="checkbox"] {
+  margin-right: 5px;
+}
