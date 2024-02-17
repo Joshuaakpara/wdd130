@@ -6,20 +6,7 @@
 <title>Contact Us - Debaks Rafting</title>
 <meta name="description" content="Contact Debaks Rafting for inquiries, reservations, or website suggestions. Get in touch with us via phone, email, or our online form.">
 <link rel="stylesheet" href="contactus.css">
-<style>
-.nav_a {
-  text-decoration: none;
-  color: white;
-  padding: 10px 20px;
-  margin: 0 10px;
-  border-radius: 5px;
-  background-color: #007bff;
-}
 
-.nav_a:hover {
-  background-color: #0056b3;
-}
-</style>
 </head>
 <body>
 <header style="width: 100%; height: 80px; display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: gray;">
@@ -27,12 +14,12 @@
 <img src="./images/websitelogo.jpeg" alt="Debaks Rafting logo" class="logo" style="width: 50px; height: 50px; border-radius: 50%;">
 <h1 style="font-size: 16px; color: white; margin-left: 20px;">Debaks Rafting</h1>
 </div>
-<nav>
-<a href="#" class="nav_a">Home</a>
-<a href="#" class="nav_a">About</a>
-<a href="#" class="nav_a">Contact</a>
-<a href="#" class="nav_a">Topic</a>
-</nav>
+<div style="display: flex;justify-content: center;align-items: center;">
+<a href="index.html" class="nav_a">Home</a>
+<a href="aboutus.html" class="nav_a">About</a>
+<a href="contactus.html" class="nav_a">Contact</a>
+<a href="trips.html" class="nav_a">Trips</a>
+</div>
 </header>
 
 <main class="page">
@@ -85,7 +72,7 @@
 <input type="email" id="email" name="email" required><br>
 <label for="purpose">Purpose:</label><br>
 <select id="purpose" name="purpose" required>
-<option value="General Inquiry">General Inquiry</option>
+<option value="">General Inquiry</option>
 <option value="Reservation Question">Reservation Question</option>
 <option value="Website Suggestion">Website Suggestion</option>
 </select><br>

@@ -1,7 +1,10 @@
+body{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
 .nav_a{
     background-color: white;
-    columns: black;
-    border: 1px solid blue;
+    border: 10px solid gray;
     padding: 4px;
     text-decoration: none;
     width: 100px;
@@ -10,10 +13,17 @@
 }
 
 .nav_a:hover{
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: green;
 }
 
 li{
     margin-top: 10px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
